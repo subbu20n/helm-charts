@@ -25,4 +25,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:{{ .Values.deployment.imageVersion }}
+        image: nginx:{{ .Values.deployment.imageVersion }} 
+
+         
